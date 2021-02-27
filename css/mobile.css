@@ -1,0 +1,45 @@
+/* smartphones */
+@media (max-width: 500px) {
+  .firstnavigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .showcaseheader div h1 {
+    font-size: 40px;
+  }
+  .showcaselink {
+    font-size: 20px;
+  }
+  .showcasediv {
+    display: flex;
+    flex-direction: column;
+    top: 135px;
+  }
+  .section {
+    padding: 0;
+  }
+  .sectionheading {
+    font-size: 35px;
+  }
+  .sectionitem h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+  }
+  .section div p {
+    font-size: 10px;
+  }
+  .who {
+    display: block;
+  }
+  .whoimage {
+    display: none;
+  }
+  .clientslogo {
+    width: 200%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+}

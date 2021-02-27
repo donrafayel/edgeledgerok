@@ -1,0 +1,231 @@
+/* navbar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.firstnavigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-align: center;
+}
+.firstheading {
+  padding: 1.6rem;
+}
+.firstspan {
+  color: lime;
+}
+.firstul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.firstli {
+  padding: 1.2rem 0.8rem;
+}
+.firstul li:hover {
+  background-color: limegreen;
+  border-radius: 5px;
+}
+/* showcase */
+.showcaseheader {
+  background: black url(../imagesources/pexels-kamran-gholami-3799176.jpg)
+    no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.showcasediv {
+  line-height: 2rem;
+  height: 100%;
+
+  /* overlay */
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.showcaseheading {
+  font-size: 60px;
+  padding-top: 15rem;
+  /* padding-bottom: 2rem; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.showcaseparagraph {
+  font-size: 1.3rem;
+  padding: 2rem 6rem;
+}
+.showcaselink {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background: limegreen;
+  display: inline-block;
+}
+.showcaselink:hover {
+  background: forestgreen;
+  border-radius: 5px;
+}
+
+/* section:what we do */
+.container {
+  max-width: 1200px;
+  height: 430px;
+  margin: auto;
+  overflow: hidden;
+}
+.sectionheading {
+  font-size: 45px;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.sectionitems {
+  display: flex;
+  flex-direction: row;
+}
+.sectionitem {
+  flex: 1;
+  text-align: center;
+}
+.sectionitem i {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem 1rem;
+  background-color: limegreen;
+  border-radius: 50%;
+}
+.sectionitem h2 {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.sectionitem p {
+  text-align: center;
+  padding: 1rem 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* section: who we are */
+.who {
+  display: flex;
+  height: 500px;
+  background-color: black;
+  color: white;
+}
+.who div {
+  flex: 1;
+}
+.whoimage {
+  background: url(../imagesources/143501250_1745327338980530_1806190952894864558_n.jpg)
+    no-repeat center center/cover;
+}
+.whotext .h3 {
+  font-size: 40px;
+  margin: 1rem 2rem;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+.whotext p {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.ourteam {
+  font-size: 20px;
+  padding: 1rem 1.5rem;
+}
+.whotext .whoul {
+  padding: 0 1.5rem;
+  line-height: 1.7rem;
+  list-style: none;
+  font-size: 1.2rem;
+}
+.whotext .whoul li {
+  border-bottom: 0.8px solid grey;
+}
+/* section:clients */
+.clientsheading {
+  font-size: 50px;
+  text-align: center;
+  padding: 2rem 2rem;
+  margin-top: 0.5px;
+  margin-bottom: 1.5rem;
+  background-color: maroon;
+}
+.clientslogo {
+  display: flex;
+  height: 180px;
+  text-align: center;
+}
+.clientslogo i {
+  flex: 1;
+}
+/* section:contact */
+
+.contact {
+  display: flex;
+  height: 430px;
+  /* color: white;
+  background-color: maroon; */
+  /* padding: 0 1.4rem; */
+  line-height: 1.6rem;
+}
+.contactcontainer {
+  color: white;
+  background-color: maroon;
+}
+.contact .contactcontainer,
+.contact .map {
+  flex: 1;
+}
+.contactcontainer h4 {
+  font-size: 35px;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.contactcontainer p {
+  padding: 1rem 1rem;
+  font-size: 19px;
+}
+.formgroup label {
+  display: block;
+}
+.formgroup input,
+.formgroup textarea,
+.submit {
+  width: 100%;
+  padding: 0.5rem;
+}
+.submit {
+  color: white;
+  background-color: forestgreen;
+  font-size: 20px;
+  padding: 0.8rem 1.2rem;
+}
+.map {
+  background: url("../imagesources/Untitled37.png") no-repeat center
+    center/cover;
+}
+/* footer */
+.footer {
+  padding: 2rem 2rem;
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
